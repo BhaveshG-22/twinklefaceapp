@@ -135,6 +135,6 @@ function SidebarContent({ selectedPage }: { selectedPage: string }) {
   )
 }
 
-export default function CatchAllPage({ params: _ }: { params: { slug?: string[] } }) {
+export default function CatchAllPage() {
   return <MainContent />
 }
